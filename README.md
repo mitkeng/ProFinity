@@ -28,7 +28,7 @@ Upon completion of a task a tabulated result like the table below is saved in a 
 
 |SMILES| PA (kcal/mol)|
 |-----|----|
-|C1=CNC(=O)NC1=O	|189.36111|
+|Cc1cccc(C)c1		|189.36111|
 |n...|...|
 
 
