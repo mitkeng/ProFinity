@@ -10,8 +10,8 @@ Overall, ProFinity uses two neural network models:1) a model for predicting PA v
 
 #
 ### Performance
-<img align = "left" width="410" alt="focus" src="https://github.com/user-attachments/assets/1526387d-9520-4fea-9fa9-1bdcbc7d04be">
-<img align = "center" width="410" alt="focus" src="https://github.com/user-attachments/assets/59fd4d1f-3ad5-45b1-b07d-f6d785965be6">
+<img align = "left" width="405" alt="focus" src="https://github.com/user-attachments/assets/1526387d-9520-4fea-9fa9-1bdcbc7d04be">
+<img align = "center" width="405" alt="focus" src="https://github.com/user-attachments/assets/59fd4d1f-3ad5-45b1-b07d-f6d785965be6">
 
 #
 ### Functionality
@@ -32,7 +32,7 @@ or
 
 Upon completion of a task a tabulated result like the table below is saved in a csv file.
 
-|SMILE| PA|
+|SMILES| PA|
 |-----|----|
 |C1=CNC(=O)NC1=O	|189.36111|
 |n...|...|
