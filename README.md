@@ -32,8 +32,7 @@ ProFinity only supports chemicals containing the following atom types: H, He, B,
 #
 ### Accessibility
  [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">](https://colab.research.google.com/drive/1f-UWLOUJWi44j_hJ0BzzREleH-hZmaCL?usp=sharing) <code style="color : grey">to access the ProFinity platform.</code>
-<img align = "right" width="100" alt="focus" src="https://github.com/mitkeng/efficION/assets/97419520/dba56f1a-cce9-434f-b1c0-7ef836041810">
-
+<img align = "right" width="100" alt="focus" src="https://github.com/user-attachments/assets/715704c6-5506-4b0c-9be5-897e5daa5820">
 
 <br />
 
