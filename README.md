@@ -26,7 +26,7 @@ The program supports single PA query or batch PA queries. For single query, only
 
 Upon completion of a task a tabulated result like the table below is saved in a csv file.
 
-|SMILES| PA|
+|SMILES| PA (kcal/mol)|
 |-----|----|
 |C1=CNC(=O)NC1=O	|189.36111|
 |n...|...|
