@@ -1,8 +1,11 @@
 # ProFinity: proton affinity prediction
 A machine learning program for predicting proton affinities of small molecules and metabolites
-![PA_uncorrected](https://github.com/user-attachments/assets/1526387d-9520-4fea-9fa9-1bdcbc7d04be)
-![PA_corrected](https://github.com/user-attachments/assets/59fd4d1f-3ad5-45b1-b07d-f6d785965be6)
 
+
+#
+### Performance
+<img align = "left" width="425" alt="focus" src="https://github.com/user-attachments/assets/1526387d-9520-4fea-9fa9-1bdcbc7d04be">
+<img align = "center" width="425" alt="focus" src="https://github.com/user-attachments/assets/59fd4d1f-3ad5-45b1-b07d-f6d785965be6">
 
 #
 ### Requirement
@@ -21,13 +24,13 @@ except:
 
 column_names=["SMILES"]
 small_batch=pd.read_csv("small_batch.csv", names=column_names)
-comp_list = #list of compounds -> ["C(=O)=O", "O"]
+comp_list = #example: ["C(=O)=O", "O"]
 small_batch['SMILES'] = comp_list
 small_batch.to_csv("small_batch.csv", index=False)
 ```
 #
 ### Limitations
-ProFinity only supports chemicals containing the following atom types: H, He, B, C, N, O, F, P, S, Cl, Fe, As, Br, I, and Xe. The models have been trained on small molecules and metabolites, therefore it may likely underperform for sizeable biomolecules. 
+ProFinity only supports chemicals containing the following atom types: H, He, B, C, N, O, F, P, S, Cl, Fe, As, Br, I, and Xe. The models have been trained on small molecules and metabolites, therefore it may significantly underperform for sizeable biomolecules. 
 
 #
 ### Accessibility
