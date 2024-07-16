@@ -17,20 +17,12 @@ Overall, ProFinity uses two neural network models: 1) a model for predicting PA 
 
 #
 ### Functionality
-The program supports single PA query or batch PA queries. For single query, either a canonical SMILE or a CAS number is applicable. For batch queries, either of the following csv data layout is appropriate:
+The program supports single PA query or batch PA queries. For single query, only a canonical SMILE is required as input string. For batch queries, follow the below csv data layout for applicability:
 
 | SMILES|                              
 |-------------|                             
 |Cc1cccc(C)c1|                               
 |n... |     
-
-or
-
-|CAS|
-| ----|
-| 108-38-3|
-|n...|
-
 
 Upon completion of a task a tabulated result like the table below is saved in a csv file.
 
