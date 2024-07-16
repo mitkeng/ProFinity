@@ -4,8 +4,8 @@ A machine learning program for predicting proton affinities of small molecules a
 
 #
 ### Performance
-<img align = "left" width="425" alt="focus" src="https://github.com/user-attachments/assets/1526387d-9520-4fea-9fa9-1bdcbc7d04be">
-<img align = "center" width="425" alt="focus" src="https://github.com/user-attachments/assets/59fd4d1f-3ad5-45b1-b07d-f6d785965be6">
+<img align = "left" width="410" alt="focus" src="https://github.com/user-attachments/assets/1526387d-9520-4fea-9fa9-1bdcbc7d04be">
+<img align = "center" width="410" alt="focus" src="https://github.com/user-attachments/assets/59fd4d1f-3ad5-45b1-b07d-f6d785965be6">
 
 #
 ### Requirement
