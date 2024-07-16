@@ -58,7 +58,7 @@ small_batch.to_csv("small_batch.csv", index=False)
 ```
 #
 ### Limitations
-ProFinity currently only supports chemicals containing the following atom types: H, He, B, C, N, O, F, P, S, Cl, Fe, As, Br, I, and Xe. The models have been trained on small molecules and metabolites, therefore, it may significantly underperform for sizeable biomolecules. Training did not explicitly account for temperature or electric field effect.
+ProFinity currently only supports chemicals containing the following atom types: H, He, B, C, N, O, F, P, S, Cl, Fe, As, Br, I, and Xe. The models have been trained on small molecules and metabolites, therefore, it may significantly underperform when applied to sizeable biomolecules. Also, training did not explicitly account for temperature or electric field effect.
 
 #
 ### Accessibility
