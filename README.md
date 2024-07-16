@@ -22,14 +22,14 @@ The program supports single PA query or batch PA queries. For single query, only
 | SMILES|                              
 |-------------|                             
 |Cc1cccc(C)c1|                               
-|n... |     
+|... |     
 
 Upon completion of a task a tabulated result like the table below is saved in a csv file.
 
 |SMILES| PA (kcal/mol)|
 |-----|----|
 |Cc1cccc(C)c1		|189.36111|
-|n...|...|
+|...|...|
 
 
 #
