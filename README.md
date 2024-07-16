@@ -7,7 +7,7 @@
 ### Introduction
 ProFinity is a machine learning program for predicting proton affinities (PA) of various small molecules and metabolites. Since PA is a gas phase property, the amount of diverse experimental PA measurements available is limited, thus, ProFinity can be practical for accurately predicting PA values for unknown chemicals within an interpolation limit.
 
-Overall, ProFinity uses two neural network models:1) a model for predicting PA values and 2) a model for error correction. Ultimately, both models synergistically deliver error attenuated results. 
+Overall, ProFinity uses two neural network models: 1) a model for predicting PA values and 2) a model for error correction. Ultimately, both models synergistically deliver error attenuated results. 
 <br />
 
 #
