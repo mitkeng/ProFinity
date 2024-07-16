@@ -17,7 +17,7 @@ Overall, ProFinity uses two neural network models:1) a model for predicting PA v
 
 #
 ### Functionality
-The program supports single logIE query or batch chemical logIE query. For single query, either a canonical SMILE or a CAS number is applicable. For batch query, either of the following csv file data layout is appropriate:
+The program supports single PA query or batch PA queries. For single query, either a canonical SMILE or a CAS number is applicable. For batch queries, either of the following csv data layout is appropriate:
 
 | SMILES|                              
 |-------------|                             
@@ -63,7 +63,7 @@ small_batch.to_csv("small_batch.csv", index=False)
 ```
 #
 ### Limitations
-ProFinity only supports chemicals containing the following atom types: H, He, B, C, N, O, F, P, S, Cl, Fe, As, Br, I, and Xe. The models have been trained on small molecules and metabolites, therefore it may significantly underperform for sizeable biomolecules. 
+ProFinity currently only supports chemicals containing the following atom types: H, He, B, C, N, O, F, P, S, Cl, Fe, As, Br, I, and Xe. The models have been trained on small molecules and metabolites, therefore, it may significantly underperform for sizeable biomolecules. 
 
 #
 ### Accessibility
