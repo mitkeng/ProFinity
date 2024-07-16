@@ -1,6 +1,8 @@
 # ProFinity: proton affinity prediction
-A machine learning program for predicting proton affinities of small molecules and metabolites
- 
+
+
+ <img width="1468" alt="image" src="https://github.com/user-attachments/assets/1760d575-10ea-4f64-8408-48e955ffbd3f">
+
 #
 ### Introduction
 ProFinity is a machine learning program for predicting proton affinities (PA) of various small molecules and metabolites. Since PA is a gas phase property, the amount of diverse experimental PA measurements available is limited, thus ProFinity can be practical for accurately predicting PA values for unknown chemicals within the interpolation limit.
