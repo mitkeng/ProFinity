@@ -8,11 +8,35 @@ ProFinity is a machine learning program for predicting proton affinities (PA) of
 Overall, ProFinity uses two neural network models:1) a model for predicting PA values and 2) a model for error correction. Ultimately, both models synergistically deliver error attenuated results. 
 <br />
 
-
 #
 ### Performance
 <img align = "left" width="410" alt="focus" src="https://github.com/user-attachments/assets/1526387d-9520-4fea-9fa9-1bdcbc7d04be">
 <img align = "center" width="410" alt="focus" src="https://github.com/user-attachments/assets/59fd4d1f-3ad5-45b1-b07d-f6d785965be6">
+
+#
+### Functionality
+The program supports single logIE query or batch chemical logIE query. For single query, either a canonical SMILE or a CAS number is applicable. For batch query, either of the following csv file data layout is appropriate:
+
+| SMILES|                              
+|-------------|                             
+|Cc1cccc(C)c1|                               
+|n... |     
+
+or
+
+|CASE|
+| ----|
+| 108-38-3|
+|n...|
+
+
+Upon completion of a task a tabulated result like the table below is saved in a csv file.
+
+|SMILE| PA|
+|-----|----|
+|C1=CNC(=O)NC1=O	|189.36111|
+|n...|...|
+
 
 #
 ### Requirement
