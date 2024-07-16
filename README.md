@@ -26,7 +26,7 @@ The program supports single PA query or batch PA queries. For single query, eith
 
 or
 
-|CASE|
+|CAS|
 | ----|
 | 108-38-3|
 |n...|
