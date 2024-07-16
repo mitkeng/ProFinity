@@ -1,0 +1,26 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: ProFinity
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Mithony
+    family-names: Keng
+    email: kengmith@msu.edu
+    affiliation: Michigan State Unviersity
+    orcid: 'https://orcid.org/0000-0002-9850-0120'
+repository-code: >-
+  https://github.com/mitkeng/ProFinity/blob/main/CITATION.cff
+url: 'https://github.com/mitkeng/ProFinity'
+abstract: 'Program for predicting proton affinity. '
+keywords:
+  - Gas phase
+  - Proton affinity
+  - Protonation
+license: MIT
+version: '1.0'
+date-released: '2024-07-15'
